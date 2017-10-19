@@ -1,0 +1,21 @@
+
+<%= render 'header', title: "Blog Listings", text: "LIfe as a Front End Developer." %>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th colspan="4">Text</th>
+  </tr>
+
+<% @articles.each do |article| %>
+
+    <tr>
+      <td><%= article.title.truncate(30, separator: ' ') %></td>
+      <td><%= article.text.truncate(60, separator: ' ') %></td>
+      <td><%= link_to 'View', article, class: "btn btn-info" %></td>
+      <td><%= link_to 'Edit', edit_article_path(article), class: "btn btn-warning" %></td>
+      <td><%= link_to 'Delete', article_path(article), class: "btn btn-danger", method: :delete, data: { confirm: 'Are you sure?'} %></td>
+    </tr>
+
+<% end %>
+</table>

@@ -1,0 +1,111 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.blog-masthead {
+  background-color: black;
+}
+
+.blog-nav-item {
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.blog-nav a:hover {
+  color: #74B567;
+  text-decoration: none;
+}
+
+.blog-title {
+  font-size: 2.5em;
+}
+
+.blog-sidebar {
+  margin-top: 3%;
+}
+
+.btn {
+  /*width: 25%;*/
+  text-transform: uppercase;
+}
+
+.biggerBtn {
+  width: 50%;
+}
+
+.halfBtn {
+  width: 24%;
+  margin-right: 1%;
+}
+
+.btn-success a {
+  color: white;
+  text-decoration: none;
+}
+
+.addComment {
+  margin-top: 5%;
+}
+
+input:placeholder-shown {
+  font-size: .8em;
+  font-style: italic;
+}
+
+textarea:placeholder-shown {
+  font-size: .8em;
+  font-style: italic;
+}
+
+input {
+  width: 50%;
+}
+textarea {
+  width: 50%;
+}
+
+/*input[type="submit"] {
+  width: 20%;
+}*/
+
+.field_with_errors label {
+  width: 0;
+}
+
+.error_explanation {
+  color: red;
+  font-weight: bold;
+
+}
+
+.error_explanation h2 {
+  font-size: 1em;
+}
+
+.error_explanation ul li {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+table {
+  width: 100%;
+}
+
+.fixedH {
+  height:50px;
+  overflow: hidden;
+}
+
+td {
+  padding-bottom: 2%;
+  padding-right: 1%;
+}
+
+h2 {
+  margin-top: 15%;
+}
+
+.blog-footer {
+  margin-top: 10%;
+}
